@@ -20,13 +20,13 @@ import static org.mockito.Mockito.when;
  */
 public class ShipwreckControllerTest {
     @InjectMocks
-    private ShipwreckController sc;
+    private  ShipwreckController sc;
 
     @Mock
     private ShipwreckRepository shipwreckRepository;
 
     @Before
-    public void init() {
+    public void  init() {
         MockitoAnnotations.initMocks(this);
     }
 
